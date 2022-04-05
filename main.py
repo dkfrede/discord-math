@@ -18,7 +18,7 @@ async def test(ctx, arg):
       elif math == False:
         await ctx.send("Answer: Incorrect")
       else:
-        await ctx.send(math)
+        await ctx.send("Answer:" + math)
     else:
       await ctx.send("Couldn't answer")
 bot.run(TOKEN HER)
